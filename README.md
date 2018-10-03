@@ -51,7 +51,7 @@ Now lets add to the controller.  We know we will need a function "updateMessage(
 ```
 All of the data and functions that are assigned to the $scope variable are available in html, so we need to define updateMessage as a $scope object function.  We also define "$scope.first" and "$scope.last".  These javascript variables will be bound to the input form ng-model elements with the same name.  So, we we are going to initialize the form to have default values.  The anonymous function passed to the controller will be run once when the page is rendered in the browser.
 
-Now that we see how to access form data from the javascript part of our angular application, lets see how we can pass data back to the DOM elements defined in our html file.  Notice that we have created a "$scope.message" variable.  Lets try to access it from javascript.  We will do this with double "{{}}".  Add this below the "<hr>" tag.
+Now that we see how to access form data from the javascript part of our angular application, lets see how we can pass data back to the DOM elements defined in our html file.  Notice that we have created a "$scope.message" variable.  Lets try to access it from javascript.  We will do this with double "{{}}".  Add this below the "`<hr`>" tag.
 
 ```
 {{heading + message}}
