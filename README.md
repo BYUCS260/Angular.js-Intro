@@ -8,7 +8,7 @@ In this tutorial you will create a simple angular.js application.  First create 
     <title>First AngularJS App</title>
   </head>
   <body>
-  </body
+  </body>
 </html>
 ```
 The html looks fairly familiar except that the html tag includes a ng-app property.  This property defines which application will be used for this DOM element.  Angular will implement two way data binding, so that any variable that changes in the javascript scope for "firstApp" will be reflected in this html element.  Now import the angular javascript library and the javascript code "first.js".  you can put it right before the closing body tag.
